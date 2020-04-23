@@ -12,27 +12,7 @@
   }
 
   h2 {
-    padding-left: 240px;
-    padding-top: 25px;
-  }
-
-  .nav-menu {
     padding-top: 40px;
-  }
-  
-  .nav-menu * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .nav-menu a {
-    display: flex;
-    align-items: center;
-    color: lightgray;
-    padding: 12px 15px;
-    margin-bottom: 8px;
-    font-size: 15px;
   }
 
   a:hover {
@@ -40,9 +20,14 @@
     text-decoration: none;
   }
 
+  .content {
+    padding-left: 250px;
+  }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
   #header {
     position: fixed;
     top: 0;
@@ -64,4 +49,26 @@
     font-weight: 600;
   }
   
-  
+/*--------------------------------------------------------------
+# Nav Menu
+--------------------------------------------------------------*/
+
+.nav-menu {
+  padding-top: 40px;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  color: lightgray;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
