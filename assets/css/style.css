@@ -48,6 +48,7 @@ h2 {
   right: 15px;
   border: 0;
   background: none;
+  outline: none !important;
 }
 
 .mobile-nav-toggle i {
@@ -102,6 +103,11 @@ a:hover {
 #header .profile h1 {
   font-size: 24px;
   font-weight: 600;
+}
+
+#header .social-media {
+  position: relative;
+  left: -10px;
 }
 
 @media (max-width: 992px) {
