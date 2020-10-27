@@ -16,8 +16,19 @@ h2 {
   padding-top: 40px;
 }
 
-.content {
-  padding-left: 250px;
+/* shift elements depending on screen size */
+@media (min-width: 768px) {
+  .content {
+    padding-left: 250px;
+  }
+
+  .leftalign{
+    float: left
+  }
+
+  .rightalign{
+    float: right
+  }
 }
 
 /*--------------------------------------------------------------
